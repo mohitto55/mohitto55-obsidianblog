@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/00-atlas/02-archive/vercel-obsidian-digital-garden/","tags":["블로그_Blog","옵시디언_Obsidian","글쓰기_Writing","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/00-atlas/02-archive/vercel-obsidian-digital-garden/","tags":["블로그_Blog","옵시디언_Obsidian","글쓰기_Writing","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
