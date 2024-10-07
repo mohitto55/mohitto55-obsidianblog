@@ -1,0 +1,369 @@
+@media print{
+  /* set your preferred fonts here.
+   */
+
+  :root {
+    --body-font-family: "LINESeedKR-Bd", LINESeedKR-Bd, "LINESeedKR-Bd", LINESeedKR-Bd, LINESeedKR-Bd, LINESeedKR-Bd, LINESeedKR-Bd;
+    --header-font-family: "LINESeedKR-Bd", LINESeedKR-Bd, LINESeedKR-Bd, LINESeedKR-Bd;
+    --code-font-family: LINESeedKR-Bd, LINESeedKR-Bd, LINESeedKR-Bd, LINESeedKR-Bd, "LINESeedKR-Bd", LINESeedKR-Bd;
+    --margin-default: 15px;
+    --table-color: #B2BADD;
+    --default-font-color: #B2BADD;
+    --ctp-yellow: rgba(249, 226, 175, 1);
+    --link-color: #AC8CDF;
+  }
+
+  body {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none;
+  }
+
+  /* If you find your font settings ae not being used for an element,
+   * Add it below. You can fund the element by inspecting the document
+   * in "Reading" mode in the console.
+   */
+  body, p, li, div.callout {
+    line-height: 1.4;
+    word-spacing: 1.1pt;
+    letter-spacing: 0.2pt;
+    font-family: var(--body-font-family);
+    font-size: 12pt;
+    color: var(--default-font-color) !important;
+  }
+
+  /* */
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font-family) !important;
+    font-weight: normal !important;
+    margin: 0 !important;
+  }
+
+  h1 {
+    font-size: 19pt !important;
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 0px 0px 0px !important;
+    color: #F38BA8 !important;
+    margin-bottom : var(--margin-default) !important;
+  }
+  h2 {
+    font-size: 17pt !important;
+    color: #FAB387 !important;
+    margin-bottom : var(--margin-default) !important;
+  }
+
+  h3 {
+    font-size: 15pt !important;
+    color: #A5E1A0 !important;
+    margin-bottom : var(--margin-default) !important;
+  }
+
+  h4{
+    color: #94E2D5 !important;
+    margin-bottom : var(--margin-default) !important;
+  }
+
+  h5{
+    color: #B4BEFE !important;
+    margin-bottom : var(--margin-default) !important;
+  }
+
+  h6{
+    color: #CBA6F7 !important;
+    margin-bottom : var(--margin-default) !important;
+  }
+  h4, h5, h6 {
+    font-size: 12pt !important
+  }
+
+/*코드블럭 색상 변경*/
+  code, code[class*="language-"],
+  pre, pre[class*="language-"] {
+    font-size: 10pt;
+    font-family: var(--code-font-family);
+    color: #79C1CF !important;
+    background: none !important;
+    background-color: #11111B !important;
+    margin: 0px !important;
+  }
+
+
+.token.block-comment,
+.token.cdata,
+.token.comment,
+.token.doctype,
+.token.prolog {
+    color: var(--default-font-color) !important;
+}
+
+/*대괄호 {}*/
+.token.punctuation,
+.token.class-name {
+    color: var(--default-font-color) !important;
+}
+
+.token.boolean,
+.token.constant,
+.token.deleted,
+.token.function-name,
+.token.number,
+.token.property,
+.token.symbol,
+.token.tag {
+    color: #79C1CF !important;
+}
+
+.token.entity,
+.token.operator,
+.token.url{
+  color: #DF809B !important;
+}
+
+.token.keyword {
+  color: #EEBCE1 !important;
+}
+
+.token.attr-name,
+.token.builtin,
+.token.char,
+.token.function,
+.token.inserted,
+.token.selector,
+.token.string,
+.token.variable
+ {
+    color: #EED8A8 !important;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.class-name {
+  /*EED8A8*/
+    color: #79C1CF !important;
+}
+
+.token.important,
+.token.regex {
+    color: #e90
+}
+
+  pre,
+  code span,
+  code {
+    color: #79C1CF !important;
+  }
+
+  code {
+    border: 1px solid #1E1E2E !important;
+    padding: 0 0.2em !important;
+    line-height: initial !important;
+    border-radius: 4px !important;
+  }
+
+
+  pre {
+    border: 1px solid #1E1E2E !important;
+    margin: 1em 0px !important;
+    padding: 0.5em !important;
+    border-radius: 4px !important;
+  }
+
+  pre > code {
+    font-size: 12px !important;
+    border: none !important;
+    border-radius: 4px !important;
+    border-radius: 4px !important;
+  }
+
+  blockquote {
+    margin: 1.3em;
+    padding: 0em;
+    margin-top: 0px;
+    font-size: 10pt;
+    color: var(--default-font-color) !important;
+    border-color: var(--default-font-color) !important;
+    background-color: #181825 !important;
+  }
+
+  hr {
+    background-color: #1E1E2E
+  }
+
+  img {
+    display:block;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  a img {
+    border: none;
+  }
+
+  table {
+    margin: 1px;
+    text-align: left;
+    font-family: var(--body-font-family) !important;
+  }
+  th {
+    border-bottom: 1px aolis #333;
+  }
+
+  td {
+    border-bottom: 1px solid #333
+  }
+
+  /* 보드 색상 */
+  th,td, tr {
+    padding: 4px 10px 4px 0;
+    color: var(--table-color) !important;
+    background: none !important;
+    border-color: #313244 !important;
+  }
+
+  /* 절취선 색상 */
+  hr{
+    border-color: #313244 !important;
+    margin-bottom: 20px !important;
+  }
+  tfoot {
+    font-style: var(--body-font-family);
+  }
+
+  caption {
+    background: #fff;
+    margin-bottom: 2em;
+    text-align: left
+  }
+
+  thead {
+    display: table-header-group
+  }
+
+  tr {
+    page-break-inside: avoid
+  }
+  a {
+    text-decoration: none;
+    color: var(--default-font-color) !important;
+  }
+
+  /*볼드체 색깔 정하기*/
+  strong{
+    color :#DF809B !important;
+  }
+
+  /*이태릭 색깔 정하기*/
+  em{
+    color:#A5E1A0 !important;
+  }
+
+  a[aria-label]::after {
+    display: inline !important;
+    content: " (" attr(aria-label) ")" !important;
+    color:  rgba(var(--callout-color), 0.75) !important;
+    font-size: 70% !important;
+  }
+
+  a[class="tag"] {
+    font-weight: bold;
+    font-family: var(--font-monospace);
+    background: none
+  }
+
+  .callout {
+    background: none;
+    border-width: 0px;
+  }
+  .callout[data-callout=warning]{
+    --ctp-background-yellow: rgba(249, 226, 175, 0.15) !important;
+    color : rgba(249, 226, 175, 1) !important;
+    border-left-color: rgba(249, 226, 175, 1) !important;
+    background-color: var(--ctp-background-yellow) !important;
+  }
+  .callout[data-callout=warning] .callout-title{
+    color: rgba(249, 226, 175, 1) !important;
+    --callout-color : rgba(249, 226, 175, 1) !important;
+  }
+
+  .callout[data-callout=warning] .callout-title .callout-title-inner{
+    color: rgba(249, 226, 175, 1) !important;
+  }
+
+  .callout[data-callout=info]{
+    --ctp-background-blue : rgba(148,226,213, 0.15) !important;
+    color : #94E2D5 !important;
+    border-left-color: #94E2D5 !important;
+    background-color: var(--ctp-background-blue) !important;
+  }
+  .callout[data-callout=info] .callout-title{
+    color: #94E2D5 !important;
+    --callout-color : #94E2D5 !important;
+  }
+  .callout[data-callout=info] .callout-title .callout-title-inner{
+    color: #94E2D5 !important;
+  }
+  /* -=-=-=-=-=-=-
+   * Specific to custom checkboxes in @kepano's minimal theme
+   */
+  li[data-task="/"]>input:checked::after,
+  input[type=checkbox]:checked::after {
+    background-color: black;
+  }
+
+  input[type=checkbox]:checked {
+    background: none
+  }
+
+  ul>li.task-list-item[data-task="x"] {
+    /*color: black*/
+  }
+
+  /* 링크 색상변경 */
+  /* a{
+    color: #CBA6F7 !important;
+  } */
+  .markdown-source-view.mod-cm6.is-live-preview .cm-blockid  {
+    display: none !important;
+  }
+  a.external-link {
+    position: relative;
+    color: var(--link-color) !important;
+  }
+  
+  a.external-link:after {
+    display: none !important;
+  }
+  
+/* except list markers, which should appear everytime */ 
+span.cm-formatting-list { display: inline !important; }
+
+/* and task checkboxes, with special font */
+span.cm-formatting-task { display: inline !important; font-family: monospace; }
+  li[data-task="!"]>input:checked::after,
+  li[data-task="*"]>input:checked::after,
+  li[data-task='"']>input:checked::after,
+  li[data-task="l"]>input:checked::after,
+  li[data-task="b"]>input:checked::after,
+  li[data-task="i"]>input:checked::after,
+  li[data-task="S"]>input:checked::after,
+  li[data-task="I"]>input:checked::after,
+  li[data-task="p"]>input:checked::after,
+  li[data-task="c"]>input:checked::after,
+  li[data-task="f"]>input:checked::after,
+  li[data-task="k"]>input:checked::after,
+  li[data-task="w"]>input:checked::after,
+  li[data-task="u"]>input:checked::after,
+  li[data-task="d"]>input:checked::after,
+  li[data-task="?"]>input:checked::after {
+    background: none !important;
+    -webkit-mask-image: none !important;
+  }
+
+  .print .markdown-preview-view {
+    background-color: #1E1E2E;
+    color: var(--text-normal);
+  /* -=-=-=-=-=-=- */
+}
+}

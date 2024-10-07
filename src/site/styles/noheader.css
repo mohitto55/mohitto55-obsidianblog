@@ -1,0 +1,4 @@
+/* banner 플러그인 사용시 헤더부분이 벌어지는 것을 방지하는 css */
+.noheader .mod-header {
+    display:none;
+  }

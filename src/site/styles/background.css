@@ -1,0 +1,18 @@
+.meetingClass{
+  background-color: #CBECFB;
+  white-space: pre-wrap;
+}
+.meetingText{
+  color: #FA5C5C;
+  font-size: large;
+}
+
+.cm-line .projectTasks{
+  all: inherit;
+}
+
+* {
+  transition: none !important;
+  animation: none !important;
+  box-shadow: none !important;
+}

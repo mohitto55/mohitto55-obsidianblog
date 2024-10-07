@@ -1,0 +1,42 @@
+
+.markdown-reading-view code[class*="language-"] {
+    overflow-x: scroll;
+    white-space: pre;
+    padding: 15px 0px;
+}
+.cm-s-obsidian .cm-hmd-indented-code {
+	color: unset;
+	background-color: unset;
+	font-size: unset;
+	vertical-align: unset;
+	font-family: unset;
+}
+:root{
+	--mycolor: rgba(45, 45, 69,1);
+	--mycolo: 45,45,69;
+}
+body{
+	--colorful-frame-color: var(--mycolor) !important; /*프레임 색 설정*/
+	--titlebar-background: var(--mycolor) !important; /*타이틀바 배경 색상*/
+	--titlebar-background-focused: var(--mycolor)!important; /*타이틀바 배경 포커스 색상*/
+
+	--colorful-icon-color: var(--ctp-ext-lavender) !important; /*아이콘 색상 연하게*/
+	--colorful-icon-color-alt: rgba(var(--ctp-ext-lavender),1); /*아이콘 포커스 시 색상 더 밝게*/
+}
+
+.anuppuccin-accent-toggle.ctp-accent-lavender{
+	/*폰트 색상 설정*/
+	/*--ctp-lavender: var(--mycolor); 이거 설정시 글자 하이라이트 안됌 */
+	--text-accent: rgb(172, 140, 223); /*노드 링크 텍스트 색상*/
+	/* --ctp-ext-lavender: 45,45,69; 악센트 컬러 연한 폰트색*/
+	--titlebar-text-color: var(--ctp-ext-lavender); /*축소, 확장, 닫기 버튼 기본 색상*/
+	--titlebar-text-color-focused: var(--ctp-ext-lavender); /*축소, 확장, 닫기 버튼 포커스 색상*/
+}
+.is-focused{
+	--tab-text-color-focused: var(--ctp-ext-lavender) ; /*기본 탭 아이콘 컬러 밝게*/
+	--tab-text-color-focused-active: var(--ctp-ext-lavender) ; /*노트 탭 포커스 색상*/
+}
+
+.cm-s-obsidian span.cm-inline-code{
+	color: #89DCEB !important;
+}

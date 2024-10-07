@@ -1,0 +1,14 @@
+.table-view-table td:nth-child(5) { 
+  min-width: 500px;
+}
+.table-view-table td:nth-child(4) { 
+  min-width: 100px;
+}
+.table-view-table > tbody > tr > td {
+  vertical-align: top;
+}
+.dataview-result-list-ul{
+  text-align: start;
+  align-items: start !important;
+  align-content: start !important;
+}
